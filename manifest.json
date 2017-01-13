@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+
+  "name": "Rainy Player",
+  "description": "간단한 조작으로 빗소리를 들을 수 있습니다.",
+  "version": "0.4.0",
+  "short_name": "Playing Rain Sound as White Noise",
+
+  "icons": { "16": "icon16.png",
+             "48": "icon48.png",
+            "128": "icon128.png" },
+
+  "browser_action": {
+    "default_icon": { "19": "icon19.png",
+                      "38": "icon38.png"},
+    "default_title": "It's Rainy...",
+    "default_popup": "popup.html"
+  },
+
+  "author": "daktwigim",
+
+  "background": {
+      "page": "background.html"
+  },
+
+  "permissions": [
+    "activeTab",
+    "background"
+  ]
+}
